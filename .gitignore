@@ -1,19 +1,13 @@
 # Python virtual environment
-env_quantspica/
-
-# Bytecode / caches
 __pycache__/
 *.pyc
 *.pyo
+*.pyd
+env_quantspica/
+*.env
 
-# Environment variables file (API keys)
-.env
-
-# VS Code settings (optional)
-.vscode/
-
-# Logs
-*.log
-
-# Docker temp files (if any)
+# Docker
 *.dockerignore
+*.log
+docker-compose.override.yml
+
